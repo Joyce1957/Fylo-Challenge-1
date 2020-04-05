@@ -1,0 +1,237 @@
+.body{
+    background: #ffff;
+	background-size: cover;
+  padding: 0;
+  margin: 0;
+	
+}
+
+.intro{
+background-image: url("../images/bg-curve-desktop.svg");
+width: 100%;
+height: 100%;
+padding: 8%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+
+}
+.section-header{
+  font-family: 'Raleway';  
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 1.5em;
+  font-stretch: normal;
+  color: hsl(243, 87%, 12%)
+}
+
+.section-text{
+    font-family: 'Open Sans';  
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.2em;
+  font-stretch: normal;
+  color:  hsl(238, 22%, 44%);
+  
+}
+
+.text-success{
+  text-decoration: underline;
+}
+
+.email-media{
+    display: flex;
+    display: inline-block;
+}
+
+.card{
+    border-radius: 7.6px;
+    box-shadow: 0 1px 2px 0 #a4b0c1;
+  width: 80%;
+  height: 45%;
+  
+}
+
+.card-text{
+  font-family: 'Open Sans';  
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.5em;
+  font-stretch: normal;
+  color:  hsl(238, 22%, 44%);
+}
+
+.card .media img{
+  height: 60px;
+  width: 60px;
+}
+
+.media-body h5{
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.media-body{
+  font-family: 'Open Sans';  
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.2em;
+  font-stretch: normal;
+  color: #000;
+  margin-top: 20px;
+}
+
+
+.contact{
+    background: #6067AF;
+    color: #ffffff;
+}
+
+.image-fluid{
+  width: 100%;
+  height: 100%;
+}
+
+footer{
+  background: hsl(243, 87%, 12%);
+  padding: 5%;
+  margin:0;
+  color: #ffffff;
+  font-size: 18Px;
+  font-family: 'Open Sans';  
+  font-weight: 400;
+}
+.contact{
+  padding: 5%;
+}
+
+.set-form2 .form-control{
+
+  border-radius: 2.6px;
+  box-shadow: 0 1px 1px 0 #a4b0c1;
+  line-height: 1.2em;
+  width: 100%;
+  
+
+}
+
+
+.set-form2 .btn{
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px 1px #a4b0c1;
+  font-size: 17px;
+  font-stretch: normal;
+  font-family: 'Raleway'; 
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #ffffff;
+  width: 100%;
+ border: none;
+}
+
+.set-form .form-control{
+  border-radius: 2.6px;
+  box-shadow: 0 1px 1px 0 #a4b0c1;
+  line-height: 1.2em;
+  width: 100%;
+  border: none;
+}
+
+.set-form .btn{
+  border-radius: 2.6px;
+  box-shadow: 0 1px 1px 0 #a4b0c1;
+  font-size: 17px;
+  font-stretch: normal;
+  font-family: 'Raleway'; 
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  margin-top: 15px;
+  width: 100%;
+}
+
+
+/* Responsive layou */
+
+@media (max-width: 575.98px) { 
+
+section{
+ padding: 10%
+}
+
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+
+
+  .intro{
+    background-image: url("../images/bg-curve-mobile.svg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+   
+    
+    }
+
+
+  #first {
+    order: 2;
+}
+#second {
+    order: 1;
+}
+
+  .section-header{
+    font-family: 'Raleway';  
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 1.5em;
+    font-stretch: normal;
+    color: hsl(243, 87%, 12%);
+    margin-top: 5%;
+  }
+
+
+  .section-text{
+    font-family: 'Open Sans';  
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.5em;
+  font-stretch: normal;
+  color: hsl(238, 22%, 44%);
+  margin-top: 5%;
+  
+}
+
+.text-success{
+  text-align: center;
+}
+  
+.set-form .btn {
+width: 100%;
+margin-top: 15px;
+}
+
+
+.set-form2 .btn {
+  width: 100%;
+  margin-top: 15px;
+  }
+
+.card{
+  width: 100%;
+}
+
+/*.image-icon{
+  height: 50px;
+  width: 50px;
+}*/
+
+ }
+
+ 
